@@ -4,7 +4,7 @@
  }
  
  let counter = 0;
- while (tailsNeverFails()) {
+ while (tailsNeverFails() <+ 0.5) {
     counter++;
     return 'You got ${counter} tails in a row!';
 }
